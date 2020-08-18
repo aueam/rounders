@@ -7,8 +7,10 @@ This function rounds the entered numbers 0 to INT_MAX up to the lowest possible 
 input 0 = output 0
 very large number, negative number = output -1
 */
-int rounder(double value) {
 
+int
+rounder(double value)
+{
 	int one_number;
 	int two_number;
 	int five_number;

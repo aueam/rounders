@@ -6,8 +6,10 @@ This function rounds the entered numbers only from the function rounder about on
 input 0 = output 0
 very large number = output -1
 */
-int rounderdown(int value) {
 
+int
+rounderdown(int value)
+{
 	if (value == 0) {
 		return 0;
 	}

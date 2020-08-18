@@ -6,8 +6,10 @@ This function rounds the entered numbers only from the function rounder about on
 input 0 = output 1
 very large number = output -1
 */
-int rounderup(int value) {
 
+int
+rounderup(int value)
+{
 	int one_number;
 	int two_number;
 	int five_number;
