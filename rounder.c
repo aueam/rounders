@@ -15,13 +15,10 @@ int rounder(double value) {
   int number_of_digits;
   int pov;
   
-
   if (value > INT_MAX || value < 0) {
     return -1;
   }
 
-  value = (long long)ceil(value);
-  
   number_of_digits = (int)log10(value);
 
   pov = pow(10,number_of_digits);

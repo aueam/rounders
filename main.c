@@ -9,10 +9,10 @@ int main() {
   int rd;
   int rdup;
   int rddown;
-  int value;
+  double value;
 
   printf("value: ");
-  scanf("%d", &value);
+  scanf("%lf", &value);
 
   rd = rounder(value);
   rdup = rounderup(rd);
